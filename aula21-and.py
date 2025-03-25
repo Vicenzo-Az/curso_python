@@ -5,7 +5,7 @@
 # Se qualquer valor for considerado falso,
 # a expressão inteira será avaliada naquele valor
 # São considerados falsy
-# 0 0.0 '' False
+# 0 0.0 '' = False
 # Também exite o tipo None que é
 # usado para representar um não valor
 entrada = input('[e]ntrar [s]air: ')
@@ -19,3 +19,6 @@ elif entrada == 's':
     print('    Sair')
 else:
     print('    Senha não informada')
+
+
+print(True and False and True)
