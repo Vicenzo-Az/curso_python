@@ -20,5 +20,5 @@ elif entrada == 's':
 else:
     print('    Senha não informada')
 
-
+# Avaliação de curto circuito
 print(True and False and True)
