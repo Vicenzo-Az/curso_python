@@ -20,4 +20,5 @@ p3 = Pessoa('Ju', 33)
 bd = [vars(p1), p2.__dict__, vars(p3)]
 
 with open (CAMINHO_ARQUIVO, 'w') as arquivo:
+    print('FAZENDO DUMP')
     json.dump(bd, arquivo, ensure_ascii=False, indent=2)
