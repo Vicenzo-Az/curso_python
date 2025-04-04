@@ -28,4 +28,4 @@ p1.__dict__['nome'] = 'EITA'
 del p1.__dict__['nome'] 
 print(p1.__dict__)
 print(vars(p1))
-print(p1.outra)
+# print(p1.outra)
